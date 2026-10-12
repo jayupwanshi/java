@@ -1,4 +1,9 @@
 
-void main() {
-    IO.println("Hello from clean, compact Java!");    
+public class o2basics {
+    public static void main(String[] args) {
+        int num = 2;
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(num + " x " + i + " = " + (num * i));
+        }
+    }
 }
